@@ -5,6 +5,7 @@ import socket
 import nmap
 import subprocess
 import os
+import sys
 
 # 1. WHOIS Lookup
 def get_whois(domain):
@@ -57,8 +58,9 @@ def find_subdomains_sublist3r(domain):
     try:
         if not os.path.exists("output"):
             os.makedirs("output")
+        python_exec = sys.executable  # Automatically uses the current Python interpreter
         subprocess.run([
-            "python", "Sublist3r/sublist3r.py", "-d", domain, "-o", "output/subdomains.txt"
+            python_exec, "Sublist3r/sublist3r.py", "-d", domain, "-o", "output/subdomains.txt"
         ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         with open("output/subdomains.txt", "r", encoding="utf-8") as f:
             subdomains = f.read().splitlines()
