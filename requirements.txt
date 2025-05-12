@@ -1,0 +1,7 @@
+requests
+whois
+dnspython
+nmap
+pdfkit
+jinja2
+rich

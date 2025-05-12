@@ -1,0 +1,9 @@
+cmd.php
+shell.php
+upload.php
+backdoor.php
+c99.php
+r57.php
+wso.php
+adminer.php
+eval.php
