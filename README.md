@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://github.com/FalconUnit/falcon-recon/raw/main/assets/banner.png" width="700" alt="Falcon Recon Banner">
-</p>
+
 
 # 🛡️ Falcon Recon Tool
 
