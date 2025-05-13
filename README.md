@@ -91,7 +91,7 @@ falcon-recon/
 ## 🔗 Community
 
 Join our channel for updates, improvements, and discussions:  
-👉 [https://t.me/falconrecon](https://t.me/falconrecon)
+👉 [https://t.me/falcounit](https://t.me/falcounit)
 
 ---
 
