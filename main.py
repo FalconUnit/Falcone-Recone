@@ -26,7 +26,7 @@ def welcome_message():
     console.print(Panel.fit(
         "[bold yellow]Welcome to Falcon Recon Tool![/bold yellow]\n"
         "Your personal reconnaissance assistant.\n"
-        "Developed by [bold cyan]Falcon Recon Team[/bold cyan]",
+        "Developed by [bold cyan]FalconUnit Team[/bold cyan]",
         title="👋 Welcome"
     ))
 
